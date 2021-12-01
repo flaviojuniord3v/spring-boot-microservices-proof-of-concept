@@ -24,13 +24,13 @@ Below is shown a brief introduction to the subprojects included in this one:
 
 Server used to register all microservices. Using Netflix Eureka each client can simultaneously act as a server, to replicate its status to a connected peer. In other words, a client retrieves a list of all connected peers of a service registry and makes all further requests to any other services through a load-balancing algorithm (Ribbon by default).
 
-- [discovery-service](https://github.com/flaviojuniord3v/discovery-service)
+- [discovery-server](https://github.com/flaviojuniord3v/discovery-service)
 
 ### Configuration Server
 
 The yaml configurations of the projects were all exported and configured through the Config Server microservice.
 
-* [config-server](https://github.com/flaviojuniord3v/config-service)
+* [config-server](https://github.com/flaviojuniord3v/config-server)
 
 
 Those configuration values have been added into the project:
